@@ -26,7 +26,7 @@ export const ProjectsData: ProjectType[] = [
   {
     id: 3,
     project: `gym-system`,
-    title: `Sistema de Academia`,
+    title: `Sistema de Academia (Em andamento)`,
     description: `modelo de sistema administrativo de academia, usado para cadastro e entrada de usuários`,
     repository: `https://github.com/Antonio91378/Academia_system`,
     link: `https://academia-system.vercel.app/`,
