@@ -36,22 +36,12 @@ const ContactGrid: React.FC = () => (
     <ContactItem
       title="LinkedIn"
       contact="linkedin"
-      link="https://www.linkedin.com/in/anderson-santos-902a29184/"
+      link="https://www.linkedin.com/in/ant%C3%B4nio-dias-5a3a2a22a/"
     />
     <ContactItem
       title="GitHub"
       contact="github"
-      link="https://github.com/AndersonSantos0"
-    />
-    <ContactItem
-      title="Rocketseat"
-      contact="rocketseat"
-      link="https://app.rocketseat.com.br/me/andersonsantos0"
-    />
-    <ContactItem
-      title="Dribbble"
-      contact="dribbble"
-      link="https://dribbble.com/RockLakers"
+      link="https://github.com/Antonio91378"
     />
   </ContactGridContainer>
 )

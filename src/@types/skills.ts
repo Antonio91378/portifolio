@@ -14,6 +14,8 @@ export type skillsType =
   | 'eslint'
   | 'prettier'
   | 'jQuery'
+  | 'firebase'
+  | 'arduino'
 
 export type skillType = {
   id: number

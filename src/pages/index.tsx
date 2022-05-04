@@ -23,10 +23,8 @@ import Menu from '@/components/menu'
 import User from '@/components/user'
 import Skills from '@/components/skills'
 import ProjectsGrid from '@/components/ProjectsGrid'
-import CompanyCard from '@/components/CompanyCard'
 import FormationGrid from '@/components/FormationGrid'
 import ContactGrid from '@/components/ContactGrid'
-import EmailSection from '@/components/EmailSection'
 
 import DownAnim from '@/assets/animations/down.json'
 
@@ -66,28 +64,29 @@ const Home: React.FC = () => {
       <ProfileAside>
         <ProfileContainer>
           <User />
-          <ProfileName>Anderson Santos</ProfileName>
-          <ProfileProfession>Desenvolvedor front-end</ProfileProfession>
+          <ProfileName>Antônio Víctor</ProfileName>
+          <ProfileProfession>Estudante de engenharia</ProfileProfession>
         </ProfileContainer>
         <ProfileSeparator />
         <ProfileBioContainer>
           <ProfileBio>
-            Tenho 18 anos, trabalho como{` `}
-            <span className="empashis">front-end</span> na Visualmix, utilizando
+            Tenho 21 anos, estudo{` `}
+            <span className="empashis">engenharia de automação industrial</span>
             {` `}
-            <span className="tech">React </span>
-            como ferramenta principal. <br /> <br /> Estudei no instituto
-            técnico de barueri, Brasílio Flores de azevedo, ensino médio com
-            curso{` `}
-            <span className="empashis">técnico de informática</span> integrado.
+            no CEFET-MG
+            <br /> <br /> Estudei o ensino médio no instituto federal do norte
+            de minas gerais com curso{` `}
+            <span className="empashis">técnico em meio ambiente</span>
+            {` `}
+            integrado.
             {` `}
             <br /> <br /> Sou{` `}
-            <strong className="empashis">apaixonado </strong>pelo front-end,
-            principalmente quando utilizado o{` `}
+            <strong className="empashis">apaixonado </strong>por desenvolvimento
+            web principalmente quando utilizado o{` `}
             <span className="tech">React </span> e o{` `}
             <span className="tech">Next.js</span>, tenho o objetivo de crescer,
-            me especializar e me tornar conhecido na área. E acredito que a
-            melhor maneira de fazer isso é correndo atrás de{` `}
+            me especializar e me tornar um bom profissional na área. E acredito
+            que a melhor maneira de fazer isso é correndo atrás de{` `}
             <span className="sub">conhecimento</span>.
           </ProfileBio>
         </ProfileBioContainer>
@@ -114,18 +113,6 @@ const Home: React.FC = () => {
               Projetos
             </h1>
             <ProjectsGrid projects={ProjectsData} />
-            <h1 ref={experienceRef} id="experience">
-              Experiência
-            </h1>
-            <div
-              style={{
-                display: `grid`,
-                gridTemplateColumns: `repeat(auto-fill, minmax(22rem, 1fr))`,
-                gridGap: `1rem 2rem`
-              }}
-            >
-              <CompanyCard />
-            </div>
             <h1>Formação</h1>
             <FormationGrid />
             <h1 ref={objectivesRef} id="objectives">
@@ -133,20 +120,25 @@ const Home: React.FC = () => {
             </h1>
             <p>
               Tenho o objetivo de crescer na área de{` `}
-              <span className="tech">front-end</span>, utilizando como linguagem
-              principal o <span className="lang">Javascript</span> (e{` `}
-              <span className="lang">Typescript</span>), pois é uma linguagem na
-              qual tenho muita vontade de{` `}
+              <span className="tech">Desenvolvimento web e mobile</span>,
+              utilizando como linguagem principal o{` `}
+              <span className="lang">Javascript</span> (e{` `}
+              <span className="lang">Typescript</span>), pois são linguagens que
+              tenho muita vontade de{` `}
               <strong className="empashis">dominar</strong>, principalmente
               quando aplicada a frameworks como o{` `}
               <span className="tech">React</span> e o{` `}
-              <span className="tech">Electron</span>. Apesar de gostar de
-              desenvolver aplicativos também gosto de fazer{` `}
-              <span className="go">designs</span>, utilizando{` `}
-              <span className="tech">figma</span> como ferramenta principal de
-              prototipagem, então pretendo fazer do design{` `}
-              <span className="tech">UX/UI</span> um{` `}
-              <span className="go">hobby</span> futuramente.
+              <span className="tech">Next</span>. Apesar de gostar de
+              desenvolver aplicações web também gosto de fazer{` `}
+              <span className="go">aplicações IOT</span>, utilizando{` `}
+              <span className="tech">micro-controladores</span> que utilzam o
+              {` `}
+              {` `}
+              <span className="go">arduino</span> como IDE principal, gosto
+              também de fazer {` `}
+              <span className="go">modelos 3D</span>, utilizando{` `}
+              <span className="tech">solid works e o blender</span> como
+              ferramentas principais de modelagem.
               <br />
               <br />
               Após dominar o front-end pretendo me tornar um{` `}
@@ -163,8 +155,6 @@ const Home: React.FC = () => {
               Contatos
             </h1>
             <ContactGrid />
-            <h1>Email</h1>
-            <EmailSection />
           </ContentContainer>
         </Content>
       </ContentSection>

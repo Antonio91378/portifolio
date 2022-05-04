@@ -1,11 +1,8 @@
 export type projectsType =
-  | 'portfolio'
-  | 'podcastr'
-  | 'podcastr-electron'
-  | 'docket-form'
-  | 'weboffice-renewed'
-  | 'weboffice'
-  | 'game-room'
+  | 'company-website'
+  | 'news-grid'
+  | 'gym-system'
+  | 'iot-esp32'
 
 export type goodsType = 'eslint' | 'prettier'
 
@@ -17,6 +14,7 @@ export type ProjectType = {
   title?: string
   description: string
   repository?: string
+
   link?: string
   langs: string[]
   platforms: platformsType[]

@@ -3,115 +3,45 @@ import { ProjectType } from '@/@types/projects'
 export const ProjectsData: ProjectType[] = [
   {
     id: 1,
-    project: `game-room`,
-    title: `Game room`,
-    description: `Uma plataforma de jogos`,
-    link: `https://game-room.vercel.app`,
-    repository: `https://github.com/AndersonSantos0/game-room`,
-    langs: [
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Styled-components`,
-      `igdb API`
-    ],
+    project: `company-website`,
+    title: `company website`,
+    description: `Um modelo de site para uma determinada compania`,
+    link: `https://company-website-nu.vercel.app/`,
+    repository: `https://github.com/Antonio91378/Company_website`,
+    langs: [`HTML`, `Javascript`, `CSS`],
     platforms: [`web`, `github`],
-    goods: [`eslint`, `prettier`]
-  },
-  {
-    id: 1,
-    project: `portfolio`,
-    title: `Portfolio`,
-    description: `Meu portfolio`,
-    repository: `https://github.com/AndersonSantos0/portfolio`,
-    langs: [
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Styled-components`
-    ],
-    platforms: [`web`, `github`],
-    goods: [`eslint`, `prettier`]
+    goods: [`prettier`]
   },
   {
     id: 2,
-    project: `podcastr`,
-    title: `Podcastr`,
-    description: `Projeto do evento Next Level Week #5 da RocketSeat`,
-    repository: `https://github.com/AndersonSantos0/nlw-podcastr`,
-    link: `https://podcastr-delta.vercel.app`,
-    langs: [
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Sass`,
-      `Styled-components`
-    ],
-    platforms: [`web`, `github`]
+    project: `news-grid`,
+    title: `News Grid`,
+    description: `Modelo de site de notícias`,
+    link: `https://sitedenoticias.netlify.app/`,
+    repository: `https://github.com/Antonio91378/Aprendendo-conceitos-de-html-e-css`,
+    langs: [`HTML`, `Javascript`, `CSS`, `Sass`],
+    platforms: [`web`, `github`],
+    goods: [`eslint`, `prettier`]
   },
   {
     id: 3,
-    project: `podcastr-electron`,
-    title: `Podcastr electron`,
-    repository: `https://github.com/AndersonSantos0/electron-podcastr`,
-    description: `Versão desktop do Podcastr`,
-
-    langs: [
-      `Electron`,
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Sass`,
-      `Styled-components`
-    ],
-    platforms: [`web`, `github`]
+    project: `gym-system`,
+    title: `Sistema de Academia`,
+    description: `modelo de sistema administrativo de academia, usado para cadastro e entrada de usuários`,
+    repository: `https://github.com/Antonio91378/Academia_system`,
+    link: `https://academia-system.vercel.app/`,
+    langs: [`React.js`, `Javascript`, `Typescript`, `Sass`, `Firebase`],
+    platforms: [`web`, `github`],
+    goods: [`prettier`]
   },
   {
     id: 4,
-    project: `docket-form`,
-    title: `Docket form`,
-    description: `Um formulário para envio de dados`,
-    repository: `https://github.com/AndersonSantos0/docket-form`,
-    link: `https://docket-form.vercel.app`,
-    langs: [
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Styled-components`
-    ],
-    platforms: [`web`, `github`],
-    goods: [`eslint`, `prettier`]
-  },
-  {
-    id: 5,
-    project: `weboffice-renewed`,
-    title: `WebOffice renewed`,
-    description: `Uma versão atualizada do projeto WebOffice`,
-    repository: `https://github.com/AndersonSantos0/weboffice-renewed`,
-    link: `https://weboffice-renewed.vercel.app`,
-    langs: [
-      `React.js`,
-      `Javascript`,
-      `Typescript`,
-      `Next.js`,
-      `Styled-components`
-    ],
-    platforms: [`web`, `github`],
-    goods: [`eslint`, `prettier`]
-  },
-  {
-    id: 6,
-    project: `weboffice`,
-    title: `WebOffice`,
-    description: `O front-end do TCC da FIEB (2019)`,
-    repository: `https://github.com/AndersonSantos0/WebOffice`,
-    link: `https://web-office.vercel.app`,
-    langs: [`HTML`, `CSS`, `Javascript`, `jQuery`],
+    project: `iot-esp32`,
+    title: `IOT com esp32`,
+    repository: `https://github.com/Antonio91378/IOT_esp32_react_firebase`,
+    description: `Projeto de Internet das Coisas, envolvendo o microcontrolador esp32`,
+    link: `https://iot-esp32-react-firebase.vercel.app/`,
+    langs: [`React.js`, `Javascript`, `Sass`, `arduino`, `Firebase`],
     platforms: [`web`, `github`]
   }
 ]
