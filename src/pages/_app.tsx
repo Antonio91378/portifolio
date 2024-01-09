@@ -2,7 +2,6 @@ import { AppProps } from 'next/app'
 import GlobalStyles from '@/styles/global'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from '@/styles/themes/default'
-
 import '@/styles/fonts.css'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
