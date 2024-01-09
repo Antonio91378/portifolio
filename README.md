@@ -6,11 +6,6 @@
 
 ## Usage
 
-### Get the project
-
-```
-$ git clone https://github.com/AndersonSantos0/portifolio.git
-```
 
 ### Install Dependencies
 
