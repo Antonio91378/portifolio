@@ -16,6 +16,11 @@ export type skillsType =
   | 'jQuery'
   | 'firebase'
   | 'arduino'
+  | 'C#'
+  | '.NET'
+  | 'SqlServer'
+  | 'Mongo'
+  | 'Angular'
 
 export type skillType = {
   id: number
