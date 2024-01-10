@@ -27,6 +27,7 @@ import FormationGrid from '@/components/FormationGrid'
 import ContactGrid from '@/components/ContactGrid'
 
 import DownAnim from '@/assets/animations/down.json'
+import { CalcularData } from '@/utils/CalcularData'
 
 type sections = 'skills' | 'projects' | 'experience' | 'objectives' | 'contact'
 
@@ -35,6 +36,9 @@ const Home: React.FC = () => {
   const experienceRef = useRef<HTMLHeadingElement>(null)
   const objectivesRef = useRef<HTMLHeadingElement>(null)
   const contactRef = useRef<HTMLHeadingElement>(null)
+
+  const data = CalcularData('2000/07/10')
+  console.log(data)
 
   const [activeSection, setActiveSection] = useState<sections>(`skills`)
 
