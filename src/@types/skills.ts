@@ -16,7 +16,7 @@ export type skillsType =
   | 'jQuery'
   | 'firebase'
   | 'arduino'
-  | 'C#'
+  | 'c#'
   | '.NET'
   | 'SqlServer'
   | 'Mongo'

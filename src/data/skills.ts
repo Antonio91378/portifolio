@@ -4,11 +4,11 @@ export const MainSkillsData: skillType[] = [
   { id: 2, skill: `typescript` },
   { id: 3, skill: `reactjs` },
   { id: 7, skill: `nextjs` },
-  { id: 23, skill: `Angular` },
-  { id: 10, skill: `C#` },
-  { id: 20, skill: `.NET` },
-  { id: 21, skill: `SqlServer` },
-  { id: 22, skill: `Mongo` }
+  { id: 18, skill: `c#` },
+  { id: 19, skill: `.NET` },
+  { id: 20, skill: `SqlServer` },
+  { id: 21, skill: `Mongo` },
+  { id: 22, skill: `Angular` }
 ]
 
 export const GoodSkillsData: skillType[] = [

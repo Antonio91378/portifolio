@@ -37,7 +37,7 @@ const Home: React.FC = () => {
   const objectivesRef = useRef<HTMLHeadingElement>(null)
   const contactRef = useRef<HTMLHeadingElement>(null)
 
-  var myAge = AgeCalculator('2000/07/10')
+  const myAge = AgeCalculator(`2000/07/10`)
 
   const [activeSection, setActiveSection] = useState<sections>(`skills`)
 
