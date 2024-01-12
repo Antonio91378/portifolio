@@ -3,7 +3,6 @@ import { GoodSkillsData, MainSkillsData, OtherSkillsData, StudySkills } from '@/
 import { ProjectsData } from '@/data/projects'
 
 import { useRef, useState } from 'react'
-import Lottie from 'react-lottie'
 
 import {
   ContentSection,
@@ -93,14 +92,6 @@ const Home: React.FC = () => {
              e seguir acreditando que a chave de todo o sucesso é "correr atrás".
           </ProfileBio>
         </ProfileBioContainer>
-        <a href="#content" className="downArrow">
-          <Lottie
-            options={{
-              animationData: DownAnim
-            }}
-            height="3rem"
-          />
-        </a>
       </ProfileAside>
       <ContentSection id="content">
         <Menu active={activeSection} />
