@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return */
-import { GoodSkillsData, MainSkillsData, OtherSkillsData } from '@/data/skills'
+import { GoodSkillsData, MainSkillsData, OtherSkillsData, StudySkills } from '@/data/skills'
 import { ProjectsData } from '@/data/projects'
 
 import { useRef, useState } from 'react'
@@ -27,7 +27,7 @@ import FormationGrid from '@/components/FormationGrid'
 import ContactGrid from '@/components/ContactGrid'
 
 import DownAnim from '@/assets/animations/down.json'
-import { CalcularData } from '@/utils/CalcularData'
+import { AgeCalculator } from '@/utils/AgeCalculator'
 
 type sections = 'skills' | 'projects' | 'experience' | 'objectives' | 'contact'
 
@@ -37,8 +37,7 @@ const Home: React.FC = () => {
   const objectivesRef = useRef<HTMLHeadingElement>(null)
   const contactRef = useRef<HTMLHeadingElement>(null)
 
-  const data = CalcularData('2000/07/10')
-  console.log(data)
+  const myAge = AgeCalculator(`2000/07/10`)
 
   const [activeSection, setActiveSection] = useState<sections>(`skills`)
 
@@ -69,29 +68,29 @@ const Home: React.FC = () => {
         <ProfileContainer>
           <User />
           <ProfileName>Antônio Víctor</ProfileName>
-          <ProfileProfession>Estudante de engenharia</ProfileProfession>
+          <ProfileProfession>Desenvolvedor Full-Stack jr.</ProfileProfession>
         </ProfileContainer>
         <ProfileSeparator />
         <ProfileBioContainer>
           <ProfileBio>
-            Tenho 21 anos, estudo{` `}
-            <span className="empashis">engenharia de automação industrial</span>
-            {` `}
-            no CEFET-MG
-            <br /> <br /> Estudei o ensino médio no instituto federal do norte
-            de minas gerais com curso{` `}
-            <span className="empashis">técnico em meio ambiente</span>
-            {` `}
-            integrado.
-            {` `}
-            <br /> <br /> Sou{` `}
-            <strong className="empashis">apaixonado </strong>por desenvolvimento
-            web principalmente quando utilizado o{` `}
-            <span className="tech">React </span> e o{` `}
-            <span className="tech">Next.js</span>, tenho o objetivo de crescer,
-            me especializar e me tornar um bom profissional na área. E acredito
-            que a melhor maneira de fazer isso é correndo atrás de{` `}
-            <span className="sub">conhecimento</span>.
+            Sou mineiro, tenho {myAge} anos e trabalho como 
+            {` `}<span className="empashis">desenvolvedor de software</span>{` `}
+            desde 2022
+            <br /> <br />
+             Fiz o ensino médio no 
+            {` `}<span className="empashis"> Instituto Federal do Norte de Minas Gerais </span>{` `}
+             com curso técnico integrado e a partir daí, prossegui minha carreira acadêmica na engenharia pela instituição
+             {` `}<span className="empashis">CEFET-MG</span>{` `}
+            <br /> <br />
+             Sou
+             {` `}<strong className="empashis">apaixonado </strong>
+            por programação, seja atuando como front, seja atuando como back,
+            contudo ultimamente tenho trabalhado com 
+            {` `}<span className="tech">.NET</span>{` `}
+            em conjunto com o
+            {` `}<span className="tech">SQL Server</span>
+            . Como objetivo, quero ficar cada vez mais especializado nas principais tecnologias do mercado
+             e seguir acreditando que a chave de todo o sucesso é "correr atrás".
           </ProfileBio>
         </ProfileBioContainer>
         <a href="#content" className="downArrow">
@@ -109,6 +108,8 @@ const Home: React.FC = () => {
           <ContentContainer>
             <h1 id="skills">Habilidades principais</h1>
             <Skills skills={MainSkillsData} />
+            <h1>Estudos</h1>
+            <Skills skills={StudySkills} />
             <h1>Boas práticas</h1>
             <Skills skills={GoodSkillsData} />
             <h1>Outras</h1>
