@@ -1,5 +1,10 @@
 /* eslint-disable consistent-return */
-import { GoodSkillsData, MainSkillsData, OtherSkillsData, StudySkills } from '@/data/skills'
+import {
+  GoodSkillsData,
+  MainSkillsData,
+  OtherSkillsData,
+  StudySkills
+} from '@/data/skills'
 import { ProjectsData } from '@/data/projects'
 
 import { useRef, useState } from 'react'
@@ -72,24 +77,38 @@ const Home: React.FC = () => {
         <ProfileSeparator />
         <ProfileBioContainer>
           <ProfileBio>
-            Sou mineiro, tenho {myAge} anos e trabalho como 
-            {` `}<span className="empashis">desenvolvedor de software</span>{` `}
+            Sou mineiro, tenho {myAge} anos e trabalho como
+            {` `}
+            <span className="empashis">desenvolvedor de software</span>
+            {` `}
             desde 2022
             <br /> <br />
-             Fiz o ensino médio no 
-            {` `}<span className="empashis"> Instituto Federal do Norte de Minas Gerais </span>{` `}
-             com curso técnico integrado e a partir daí, prossegui minha carreira acadêmica na engenharia pela instituição
-             {` `}<span className="empashis">CEFET-MG</span>{` `}
+            Fiz o ensino médio no
+            {` `}
+            <span className="empashis">
+              {` `}
+              Instituto Federal do Norte de Minas Gerais{` `}
+            </span>
+            {` `}
+            com curso técnico integrado e a partir daí, prossegui minha carreira
+            acadêmica na engenharia pela instituição
+            {` `}
+            <span className="empashis">CEFET-MG</span>
+            {` `}
             <br /> <br />
-             Sou
-             {` `}<strong className="empashis">apaixonado </strong>
+            Sou
+            {` `}
+            <strong className="empashis">apaixonado </strong>
             por programação, seja atuando como front, seja atuando como back,
-            contudo ultimamente tenho trabalhado com 
-            {` `}<span className="tech">.NET</span>{` `}
-            em conjunto com o
-            {` `}<span className="tech">SQL Server</span>
-            . Como objetivo, quero ficar cada vez mais especializado nas principais tecnologias do mercado
-             e seguir acreditando que a chave de todo o sucesso é "correr atrás".
+            contudo ultimamente tenho trabalhado com
+            {` `}
+            <span className="tech">.NET</span>
+            {` `}
+            em conjunto com o{` `}
+            <span className="tech">SQL Server</span>. Como objetivo, quero ficar
+            cada vez mais especializado nas principais tecnologias do mercado e
+            seguir acreditando que a chave de todo o sucesso é &quot;correr
+            atrás&quot;.
           </ProfileBio>
         </ProfileBioContainer>
       </ProfileAside>
