@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return */
-import { GoodSkillsData, MainSkillsData, OtherSkillsData } from '@/data/skills'
+import { GoodSkillsData, MainSkillsData, OtherSkillsData, StudySkills } from '@/data/skills'
 import { ProjectsData } from '@/data/projects'
 
 import { useRef, useState } from 'react'
@@ -74,7 +74,7 @@ const Home: React.FC = () => {
         <ProfileBioContainer>
           <ProfileBio>
             Sou mineiro, tenho {myAge} anos e trabalho como 
-            {` `}<span className="empashis">desenvolvedor back-end C#</span>{` `}
+            {` `}<span className="empashis">desenvolvedor de software</span>{` `}
             desde 2022
             <br /> <br />
              Fiz o ensino médio no 
@@ -108,6 +108,8 @@ const Home: React.FC = () => {
           <ContentContainer>
             <h1 id="skills">Habilidades principais</h1>
             <Skills skills={MainSkillsData} />
+            <h1>Estudos</h1>
+            <Skills skills={StudySkills} />
             <h1>Boas práticas</h1>
             <Skills skills={GoodSkillsData} />
             <h1>Outras</h1>
