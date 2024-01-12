@@ -19,7 +19,7 @@ export const SkillItem: React.FC<SkillItemProps> = ({
 }) => (
   <SkillContainer>
     <SkillIcon background={background}>
-      <img src={`/skills/${skill}.svg`} alt={skill} />
+      <img src={`/skill/${skill}.svg`} alt={skill} />
     </SkillIcon>
     <SkillTitle>{title || skill}</SkillTitle>
   </SkillContainer>
