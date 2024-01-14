@@ -31,6 +31,7 @@ import FormationGrid from '@/components/FormationGrid'
 import ContactGrid from '@/components/ContactGrid'
 import ProfileData from '@/components/Data/ProfileData'
 import ObjectivesData from '@/components/Data/ObjectivesData'
+import CompanyCard from '@/components/CompanyCard'
 
 type sections = 'skills' | 'projects' | 'experience' | 'objectives' | 'contact'
 
@@ -92,6 +93,18 @@ const Home: React.FC = () => {
             <ProjectsGrid projects={ProjectsData} />
             <h1>Formação</h1>
             <FormationGrid />
+            <h1 ref={experienceRef} id="experience">
+              Experiência
+            </h1>
+            <div
+              style={{
+                display: `grid`,
+                gridTemplateColumns: `repeat(auto-fill, minmax(22rem, 1fr))`,
+                gridGap: `1rem 2rem`
+              }}
+            >
+              <CompanyCard />
+            </div>
             <h1 ref={objectivesRef} id="objectives">
               Objetivos
             </h1>

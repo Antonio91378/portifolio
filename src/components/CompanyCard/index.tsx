@@ -11,12 +11,21 @@ import {
 const CompanyCard: React.FC = () => (
   <CompanyCardContainer>
     <CompanyCardImage>
-      <img src="/companies/visualmix-logo.png" alt="visualmix" />
+      <img
+        height="100%"
+        width="100%"
+        src="/companies/bit_pagg_logo.png"
+        alt="BitTech"
+      />
     </CompanyCardImage>
     <CompanyCardContent>
-      <CompanyCardTitle>Visual mix, tecnologia para varejo</CompanyCardTitle>
-      <CompanyCardTime>set. de 2019 - o momento</CompanyCardTime>
-      <CompanyCardLocation>Alphaville</CompanyCardLocation>
+      <CompanyCardTitle>
+        Bit Tech, Revolucionando o mercado de seguros
+      </CompanyCardTitle>
+      <CompanyCardTime>
+        jun. de 2022 - o momento | Desenvolvedor Back-End
+      </CompanyCardTime>
+      <CompanyCardLocation>Araxá - MG</CompanyCardLocation>
     </CompanyCardContent>
   </CompanyCardContainer>
 )

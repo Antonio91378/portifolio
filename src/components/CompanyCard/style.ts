@@ -13,15 +13,10 @@ export const CompanyCardContainer = styled.div`
 export const CompanyCardImage = styled.div`
   height: 4rem;
   width: 4rem;
-  border-radius: 4px;
   display: flex;
   background-color: #fff;
   align-items: center;
   justify-content: center;
-
-  img {
-    transform: translate(2px, 2px);
-  }
 `
 
 export const CompanyCardContent = styled.div`
