@@ -20,10 +20,11 @@ const CompanyCard: React.FC = () => (
     </CompanyCardImage>
     <CompanyCardContent>
       <CompanyCardTitle>
-        Bit Tech, Revolucionando o mercado de seguros
+        Bit Tech - Revolucionando o mercado de seguros
       </CompanyCardTitle>
       <CompanyCardTime>
-        jun. de 2022 - o momento | Desenvolvedor Back-End
+        jun. de 2022 - até o momento <br />
+        Desenvolvedor Back-End
       </CompanyCardTime>
       <CompanyCardLocation>Araxá - MG</CompanyCardLocation>
     </CompanyCardContent>
