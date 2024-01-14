@@ -34,6 +34,11 @@ export const ContactItem: React.FC<ContactItemProps> = ({
 const ContactGrid: React.FC = () => (
   <ContactGridContainer>
     <ContactItem
+      title="WhatsApp"
+      contact="whatsapp"
+      link="https://api.whatsapp.com/send?phone=5538998115366"
+    />
+    <ContactItem
       title="LinkedIn"
       contact="linkedin"
       link="https://www.linkedin.com/in/ant%C3%B4nio-dias-5a3a2a22a/"

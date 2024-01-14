@@ -3,25 +3,30 @@ import React from 'react'
 const ObjectivesData: React.FC = () => {
   return (
     <p>
-      Busco continuar crescendo na área de{` `}
+      1. Continuar crescendo na área de{` `}
       <span className="tech">Desenvolvimento de Software</span>, utilizando como
-      principais linguagens o{` `}
+      principais ferramentas o{` `}
       <span className="lang">C#</span> e o{` `}
-      <span className="lang">Typescript</span>, tendo em vista que são
-      amplamente utilizadas no mercado e que possuem uma alta gama de
-      aplicabilidades, principalmente quando{` `}
-      associadas à algum frameworks. Quero continuar desenvolvendo de uma
-      maneira limpa, arquiteturas de software, boas práticas de segurança, e a
-      capacidade de integrar APIs de terceiros também estão entre os objetivos
-      importantes.
-      <span className="go">desenvolvimento de aplicações web</span>,{` `}
-      tenho muito interesse em ingressar futuramente no mercado de VR e AR, pois
-      creio ser o futuro as interações.
-      {` `}
-      Carrego também muita afinidade com o mundo das {` `}
-      <span className="go">aplicações IOT</span> {` `}
-      temática em que tive contato na engenharia {` `}e que foi responsável por
-      me despertar interesse com o mundo da programação.{` `}
+      <span className="lang">Typescript</span>. O foco nessas linguagens é
+      vantajoso por serem amplamente utilizadas no mercado, tendo: Uma alta gama
+      de aplicabilidades; Frameworks escaláveis e bibliotecas favoráveis que
+      economizam tempo.
+      <br />
+      <br />
+      2. Ter como padrão de qualidade o desenvolvimento clean, utilizando uma
+      boa arquitetura, obedecendo boas práticas de programação que fazem com que
+      os princípios <span className="tech">SOLID</span> sejam pilares para um
+      bom código.
+      <br />
+      <br />
+      3. Desenvolver pensando sempre em deixar a aplicação segura, evitando
+      deixar brechas que comprometam a integridade das informações trafegadas.
+      <br />
+      <br />
+      4. Continuar sendo um grande entusiasta de tendências{' '}
+      <span className="lang">tech</span>, acompanhando por exemplo o
+      amadurecimento de novas aplicações <span className="tech"> VR e AR </span>
+      e aplicações de <span className="go">IOT</span>.
     </p>
   )
 }

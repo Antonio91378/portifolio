@@ -16,7 +16,7 @@ const FormationGrid: React.FC = () => (
       format=".png"
       title="Insituto Federal do Norte de Minas Gerais"
       time="jan. de 2015 - 2017"
-      description={`O <span class="go">Técnico de Nível Médio em Meio Ambiente</span> é o <strong class="empashis">profissional</strong> direcionado para atividades de gestão ambiental, aplicação da legislação e das políticas ambientais, controle analítico para o monitoramento dos ecossistemas locais e desenvolvimento de tecnologias sustentáveis, processos produtivos e saúde coletiva.`}
+      description={`Os <span class="go">Institutos Federais</span> são <strong class="empashis">instituições</strong> de educação básica, profissional e superior publicas federais brasileiras. Os institutos federais compõem a Rede Federal de Educação Profissional, Científica e Tecnológica.`}
     />
   </FormationGridContainer>
 )
