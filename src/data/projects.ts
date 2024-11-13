@@ -3,25 +3,34 @@ import { ProjectType } from '@/@types/projects'
 export const ProjectsData: ProjectType[] = [
   {
     id: 1,
-    project: `company-website`,
-    title: `company website`,
-    description: `Um modelo de site para uma determinada compania`,
-    link: `https://company-website-nu.vercel.app/`,
-    repository: `https://github.com/Antonio91378/Company_website`,
-    langs: [`HTML`, `Javascript`, `CSS`],
+    project: `landing-page`,
+    title: `GTEC-IRON`,
+    description: `Página de apresentação criada para a empresa GTEC-IRON`,
+    link: `https://www.gteciron.com/`,
+    repository: `https://github.com/Antonio91378/GTEC-Iron-landing-page`,
+    langs: [`HTML`, `Javascript`, `CSS`, `Next.js`],
     platforms: [`web`, `github`],
     goods: [`prettier`]
   },
   {
     id: 2,
-    project: `news-grid`,
-    title: `News Grid`,
-    description: `Modelo de site de notícias`,
-    link: `https://sitedenoticias.netlify.app/`,
-    repository: `https://github.com/Antonio91378/Aprendendo-conceitos-de-html-e-css`,
-    langs: [`HTML`, `Javascript`, `CSS`, `Sass`],
-    platforms: [`web`, `github`],
-    goods: [`eslint`, `prettier`]
+    project: `e-commerce`,
+    title: `COOPERAFLEX`,
+    description: `E-commerce de seguros que ajudei a desenvolver como dev back-end terceirizado da ICATU SEGUROS S.A.`,
+    link: `https://vida-cooperaflex-venda.icatuseguros.com.br/`,
+    repository: `NA`,
+    langs: [
+      `HTML`,
+      `Javascript`,
+      `CSS`,
+      `Angular.js`,
+      `.NET`,
+      `SQL Server`,
+      `Azure`,
+      `MongoDB`
+    ],
+    platforms: [`web`],
+    goods: [`SOLID`, `TDD`, `DDD`]
   },
   {
     id: 3,

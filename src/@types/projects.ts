@@ -1,10 +1,10 @@
 export type projectsType =
-  | 'company-website'
-  | 'news-grid'
+  | 'landing-page'
+  | 'e-commerce'
   | 'gym-system'
   | 'iot-esp32'
 
-export type goodsType = 'eslint' | 'prettier'
+export type goodsType = 'eslint' | 'prettier' | 'SOLID' | 'TDD' | 'DDD'
 
 export type platformsType = 'desktop' | 'web' | 'github' | 'mobile'
 
